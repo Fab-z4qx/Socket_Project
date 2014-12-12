@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		7D14C7E2191ABA570076C8DF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D14C7E1191ABA570076C8DF /* main.cpp */; };
 		7D14C7E4191ABA570076C8DF /* Socket_Project.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7D14C7E3191ABA570076C8DF /* Socket_Project.1 */; };
+		7D14C7F0191AC0DE0076C8DF /* TcpSocketServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D14C7EE191AC0DE0076C8DF /* TcpSocketServer.cpp */; };
+		7D14C7F3191AC2DA0076C8DF /* Socket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D14C7F1191AC2DA0076C8DF /* Socket.cpp */; };
+		7D14C7F6191AD9740076C8DF /* TcpSocketClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D14C7F4191AD9740076C8DF /* TcpSocketClient.cpp */; };
+		7DB2E525192128D100CAD481 /* UdpSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DB2E523192128D100CAD481 /* UdpSocket.cpp */; };
+		7DB2E5281921426500CAD481 /* TcpSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DB2E5261921426500CAD481 /* TcpSocket.cpp */; };
+		7DD24F60192C4CEB00D75127 /* UdpSocketServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DD24F5E192C4CEB00D75127 /* UdpSocketServer.cpp */; };
+		7DD24F63192C50CF00D75127 /* UdpSocketClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DD24F61192C50CF00D75127 /* UdpSocketClient.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +35,21 @@
 		7D14C7DE191ABA570076C8DF /* Socket_Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Socket_Project; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D14C7E1191ABA570076C8DF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		7D14C7E3191ABA570076C8DF /* Socket_Project.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Socket_Project.1; sourceTree = "<group>"; };
+		7D14C7EA191ABB0F0076C8DF /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		7D14C7EE191AC0DE0076C8DF /* TcpSocketServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TcpSocketServer.cpp; sourceTree = "<group>"; };
+		7D14C7EF191AC0DE0076C8DF /* TcpSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TcpSocketServer.h; sourceTree = "<group>"; };
+		7D14C7F1191AC2DA0076C8DF /* Socket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Socket.cpp; sourceTree = "<group>"; };
+		7D14C7F2191AC2DA0076C8DF /* Socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Socket.h; sourceTree = "<group>"; };
+		7D14C7F4191AD9740076C8DF /* TcpSocketClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TcpSocketClient.cpp; sourceTree = "<group>"; };
+		7D14C7F5191AD9740076C8DF /* TcpSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TcpSocketClient.h; sourceTree = "<group>"; };
+		7DB2E523192128D100CAD481 /* UdpSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UdpSocket.cpp; sourceTree = "<group>"; };
+		7DB2E524192128D100CAD481 /* UdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UdpSocket.h; sourceTree = "<group>"; };
+		7DB2E5261921426500CAD481 /* TcpSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TcpSocket.cpp; sourceTree = "<group>"; };
+		7DB2E5271921426500CAD481 /* TcpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TcpSocket.h; sourceTree = "<group>"; };
+		7DD24F5E192C4CEB00D75127 /* UdpSocketServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UdpSocketServer.cpp; sourceTree = "<group>"; };
+		7DD24F5F192C4CEB00D75127 /* UdpSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UdpSocketServer.h; sourceTree = "<group>"; };
+		7DD24F61192C50CF00D75127 /* UdpSocketClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UdpSocketClient.cpp; sourceTree = "<group>"; };
+		7DD24F62192C50CF00D75127 /* UdpSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UdpSocketClient.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +83,22 @@
 			isa = PBXGroup;
 			children = (
 				7D14C7E1191ABA570076C8DF /* main.cpp */,
+				7D14C7EA191ABB0F0076C8DF /* main.h */,
 				7D14C7E3191ABA570076C8DF /* Socket_Project.1 */,
+				7D14C7EE191AC0DE0076C8DF /* TcpSocketServer.cpp */,
+				7D14C7EF191AC0DE0076C8DF /* TcpSocketServer.h */,
+				7D14C7F1191AC2DA0076C8DF /* Socket.cpp */,
+				7D14C7F2191AC2DA0076C8DF /* Socket.h */,
+				7D14C7F4191AD9740076C8DF /* TcpSocketClient.cpp */,
+				7D14C7F5191AD9740076C8DF /* TcpSocketClient.h */,
+				7DB2E523192128D100CAD481 /* UdpSocket.cpp */,
+				7DB2E524192128D100CAD481 /* UdpSocket.h */,
+				7DB2E5261921426500CAD481 /* TcpSocket.cpp */,
+				7DB2E5271921426500CAD481 /* TcpSocket.h */,
+				7DD24F5E192C4CEB00D75127 /* UdpSocketServer.cpp */,
+				7DD24F5F192C4CEB00D75127 /* UdpSocketServer.h */,
+				7DD24F61192C50CF00D75127 /* UdpSocketClient.cpp */,
+				7DD24F62192C50CF00D75127 /* UdpSocketClient.h */,
 			);
 			path = Socket_Project;
 			sourceTree = "<group>";
@@ -117,7 +154,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DB2E5281921426500CAD481 /* TcpSocket.cpp in Sources */,
+				7DD24F60192C4CEB00D75127 /* UdpSocketServer.cpp in Sources */,
 				7D14C7E2191ABA570076C8DF /* main.cpp in Sources */,
+				7D14C7F6191AD9740076C8DF /* TcpSocketClient.cpp in Sources */,
+				7D14C7F3191AC2DA0076C8DF /* Socket.cpp in Sources */,
+				7DD24F63192C50CF00D75127 /* UdpSocketClient.cpp in Sources */,
+				7DB2E525192128D100CAD481 /* UdpSocket.cpp in Sources */,
+				7D14C7F0191AC0DE0076C8DF /* TcpSocketServer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +271,7 @@
 				7D14C7E9191ABA570076C8DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
